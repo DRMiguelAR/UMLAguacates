@@ -1,0 +1,25 @@
+%% usando paquete tikz-uml
+
+\umlclass{monitor}
+% atributos
+{
++name: string \\
+
+}
+%métodos
+{
+  +createBatch(date: date): batch\\
+  +addHarvest(
+      batch: batch, 
+      date: date,
+      crew: crewLeader): boolean\\
+  +addPacking(
+      batch: batch,
+      date: date,
+      packer: packer): boolean\\
+      
+
+
+
+}
+\end
